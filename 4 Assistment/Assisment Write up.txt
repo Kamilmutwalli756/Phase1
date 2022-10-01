@@ -1,0 +1,9 @@
+first we create a main class------->
+then we call to method public static void add()throwm exeptions------->
+then by using SYSO we can give the name and also we use scanner class and string to tak values from system------->
+then we create folder on desktop and its path can be stored it in file f= new file ------->
+after then we take loop if else when file is created that time take file is creatd and when file is created and its again shown then its print its allready exists-------> 
+same as we use for delete file,serching file and assending or dessending file purposes ------->
+after that we sorted file names and give the notaions -------> 
+after that we call to main functions by using thrown exeption ------->
+while by entering specifics names by assigning notation 1,2,3 and then call to SYSO and taking the values from users and print the values and by useing if else we can check file is available then we use switch case and when file is added then it goes directly break position or commands 

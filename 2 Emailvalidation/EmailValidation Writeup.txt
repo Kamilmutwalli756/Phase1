@@ -1,0 +1,6 @@
+first we create a package then 
+we create a class inside EmailValidation then 
+calling to main function and then 
+create a object then we can add emails in diffrent name and then
+ we pattern and mattcher then we print the value by using 		
+System.out.println(email+":"+matcher.matches()+"\n");

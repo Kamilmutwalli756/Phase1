@@ -1,0 +1,25 @@
+Write Demo
+--------------------
+first we create a pacakge and inside that we create write class 
+after that put the data in string data format 
+then we use try cashe block to handle the exceptions 
+then we create a file write object and wright the data inside and call to Syso to print ("DATA SUCCESS FULLY WRITEN")and close the file
+after completing this we can use cashe block to exception handling purpose and then somthing is wrrong then its shows error
+
+
+Read Demo
+--------------------
+we use class of read demo
+then inside the main class we use try cash block 
+inside the try block we can use class object 
+and import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+in cashe block we can use thrown exception 
+
+Append demo
+---------------------
+we use read demo class
+and also use class object of char 
+import java.io.filereader;
+we gives the input to the system and then checjk its working or not

@@ -1,0 +1,48 @@
+package Method;
+
+public class Calculator {
+	;
+	public int Addition( int num1, int num2) {
+	return num1+num2;
+	}
+	public int Substraction( int num1, int num2) {
+		return num1-num2;
+	}
+	public int Multiplication(int num1, int num2) {
+		return num1*num2;
+	}
+	public int Devision(int num1, int num2) {
+		return num1/num2;
+	}
+	public int Reminder(int num1,int num2) {
+		return num1%num2;
+	}
+	public static void main(String[] args) {
+		
+		Calculator cal =new Calculator();
+		
+		int Sum =cal.Addition(30, 40);
+		System.out.println("Addition"+ Sum);
+		int Sub =cal.Substraction(50, 30);
+		System.out.println("Substraction"+ Sub);
+		int Multi =cal.Multiplication(20, 30);
+		System.out.println("Multiplication"+ Multi);
+		int Devis =cal.Devision(520, 5);
+		System.out.println("Division"+ Devis);
+		int Remen =cal.Reminder(50, 5);
+		System.out.println("Deviser"+ Remen);
+		
+		
+		 System.out.println("All Values Are Right");
+
+		
+	}
+
+
+		
+	}
+
+
+
+
+

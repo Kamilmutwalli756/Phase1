@@ -1,0 +1,75 @@
+package FileHandling;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class WriteDemo {
+	
+	public static void main(String[] args) {
+		
+	
+	String data="100,India,Maharashtra,Mumbai";
+	try{
+		
+		
+		FileWriter a = new FileWriter("data1.txt");
+		
+		a.write(data);
+		System.out.println("Data is written sucessfully");
+		a.close();
+	
+	}catch(IOException ex) {
+		System.out.println("File Write Error...");	
+	}
+	
+}
+}
+
+---------------------------------------------
+package FileHandling;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class ReadDemo {
+
+	public static void main(String[] args) {
+		char[] data =new char[100];
+		try {
+			FileReader input =new FileReader("data1.txt");
+			input.read(data);
+			System.out.println("data recived from file");
+			System.out.println(data);
+			input.close();
+			
+		}catch(IOException ex) {
+			System.out.println("file read error..");
+		}
+	}
+}
+
+---------------------------------------------
+
+package FileHandling;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class AppendDemo {
+	public static void main(String[] args) {
+		
+		String data ="This data is appended..";
+		try {
+			FileWriter  output = new FileWriter("data1.txt,true");
+			output.write(data);
+			System.out.println("Data appended Successfully");
+			output.close();	
+		} catch(IOException ex) {
+			System.out.println("file append error");
+		}
+	}
+
+}
+
+

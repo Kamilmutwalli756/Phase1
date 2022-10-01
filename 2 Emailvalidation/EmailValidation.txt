@@ -1,0 +1,27 @@
+package Email;
+
+import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class EmailValidation {
+
+	public static void main(String args[]) { 
+		ArrayList<String>emails =new ArrayList<String>();
+
+	emails.add("kamilmutwalli@gmail.com");
+
+	emails.add("@yahoo.com");
+	//invalid email
+
+	emails.add("kamil#13.com"); 
+	//regular expession
+
+	String regex ="^(.+)@(.+)$";
+	Pattern pattern = Pattern.compile(regex); 
+	for (String email: emails) { 
+		Matcher matcher =pattern.matcher (email); 
+		System.out.println(email+":"+matcher.matches()+"\n");
+}
+	}
+}
